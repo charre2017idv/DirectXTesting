@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="Buffers">
+      <UniqueIdentifier>{0859593b-5285-4ac2-89ec-d179c9deb96a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buffers\mfBuffer">
+      <UniqueIdentifier>{6fe8aadd-2b15-4dce-b346-dcd4120d46eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buffers\mfVertexBuffer">
+      <UniqueIdentifier>{c6ed1607-fbe2-46da-89aa-991eb3c468b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buffers\mfPixelBuffer">
+      <UniqueIdentifier>{2cc98df9-ac42-4663-8a30-b0d81afb1363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buffers\mfConstBuffer">
+      <UniqueIdentifier>{c5e04418-ebba-4d86-9d31-342ee66f7b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Device">
+      <UniqueIdentifier>{4cf7f6d9-0660-4895-91e4-255fbd61d7c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DeviceContext">
+      <UniqueIdentifier>{b9ef2531-f576-46df-ba1d-1f396273ca99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseShader">
+      <UniqueIdentifier>{d67fc649-0980-4331-9cbe-767ad25e3d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseTexture">
+      <UniqueIdentifier>{3b41d1e8-7677-4d1e-9764-db67d13ec63d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DepthStencil">
+      <UniqueIdentifier>{2fe9c438-c018-430d-9369-af819d64eeb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DepthStencilView">
+      <UniqueIdentifier>{46a2426e-5b99-43cc-b1d3-344c052b56e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InputLayout">
+      <UniqueIdentifier>{1c74a574-f325-4d04-b59d-40729e0644a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LoadModel">
+      <UniqueIdentifier>{d41dc8ab-987b-4579-bcf0-a41cf766ccee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PixelShader">
+      <UniqueIdentifier>{247be2e8-2bc2-4740-8231-827b31a211b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderManager">
+      <UniqueIdentifier>{5b11e8b6-72f1-49a4-b62f-41d1ca4b2ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderTarget">
+      <UniqueIdentifier>{095224e4-9dd5-4ee6-b2c0-8aa08c81d877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sampler">
+      <UniqueIdentifier>{186d5e7c-f901-42fe-bac4-0e07fab69ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SwapChain">
+      <UniqueIdentifier>{0b9a07cf-9667-4d33-9866-5d0870315bdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{62086812-853f-4bc9-90bb-098f76c3020a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VertexShader">
+      <UniqueIdentifier>{fca04205-aa45-45cc-b7f6-2d39e54e9075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viewport">
+      <UniqueIdentifier>{e5f7a459-c29d-4943-99a8-870ca75fd898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{6f965bbd-5905-4df8-a6a9-c148681a03d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{29f4328d-68d9-400c-adad-e959755b0fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\DirectX">
+      <UniqueIdentifier>{785dc17c-f79c-4313-a937-dd636f168b64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenFile">
+      <UniqueIdentifier>{37e69e1f-c941-420f-b2c6-4cadd7b5114f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mesh">
+      <UniqueIdentifier>{5bd7c70b-9ca0-4d42-88c4-1288dfb93c3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stb_image">
+      <UniqueIdentifier>{dae70129-314f-4153-bb79-74fd3aa979e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{cf24fbc5-b46c-496e-b99c-4cf8fd06b480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mfImGui">
+      <UniqueIdentifier>{ef5c40ec-62cd-4444-aaf9-7840e7cc7c9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Material">
+      <UniqueIdentifier>{70149ccb-21ad-4c19-9d3b-547550b862d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResourceManager">
+      <UniqueIdentifier>{c94f31a3-f740-4e79-9bea-92edfb13d476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderToTexture">
+      <UniqueIdentifier>{5b7c971d-bd08-4409-aa20-0759a30df806}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mfDefines.h" />
+    <ClInclude Include="mfBuffer.h">
+      <Filter>Buffers\mfBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="mfVertexBuffer.h">
+      <Filter>Buffers\mfVertexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="mfPixelBuffer.h">
+      <Filter>Buffers\mfPixelBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="mfConstBuffer.h">
+      <Filter>Buffers\mfConstBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="mdDevice.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="mfDeviceContext.h">
+      <Filter>DeviceContext</Filter>
+    </ClInclude>
+    <ClInclude Include="mfBaseShader.h">
+      <Filter>BaseShader</Filter>
+    </ClInclude>
+    <ClInclude Include="mfBaseTexture.h">
+      <Filter>BaseTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="mfDepthStencil.h">
+      <Filter>DepthStencil</Filter>
+    </ClInclude>
+    <ClInclude Include="mfDepthStencilView.h">
+      <Filter>DepthStencilView</Filter>
+    </ClInclude>
+    <ClInclude Include="mfInputLayout.h">
+      <Filter>InputLayout</Filter>
+    </ClInclude>
+    <ClInclude Include="mfLoadModel.h">
+      <Filter>LoadModel</Filter>
+    </ClInclude>
+    <ClInclude Include="mfPixelShader.h">
+      <Filter>PixelShader</Filter>
+    </ClInclude>
+    <ClInclude Include="mfRenderManager.h">
+      <Filter>RenderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="mfRenderTarget.h">
+      <Filter>RenderTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="mfSampler.h">
+      <Filter>Sampler</Filter>
+    </ClInclude>
+    <ClInclude Include="mfSwapchain.h">
+      <Filter>SwapChain</Filter>
+    </ClInclude>
+    <ClInclude Include="mfTexture.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="mfVertexShader.h">
+      <Filter>VertexShader</Filter>
+    </ClInclude>
+    <ClInclude Include="mfViewport.h">
+      <Filter>Viewport</Filter>
+    </ClInclude>
+    <ClInclude Include="mfWindow.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\ImGuiDirectX\imconfig.h">
+      <Filter>ImGui\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\ImGuiDirectX\imgui.h">
+      <Filter>ImGui\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\ImGuiDirectX\imgui_impl_dx11.h">
+      <Filter>ImGui\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\ImGuiDirectX\imgui_impl_win32.h">
+      <Filter>ImGui\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\ImGuiDirectX\imgui_internal.h">
+      <Filter>ImGui\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\ImGuiDirectX\imstb_rectpack.h">
+      <Filter>ImGui\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\ImGuiDirectX\imstb_textedit.h">
+      <Filter>ImGui\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\ImGuiDirectX\imstb_truetype.h">
+      <Filter>ImGui\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="mfOpenFile.h">
+      <Filter>OpenFile</Filter>
+    </ClInclude>
+    <ClInclude Include="mfMesh.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="mfModule.h" />
+    <ClInclude Include="stb_image.h">
+      <Filter>stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="mfCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="mfImGui.h">
+      <Filter>mfImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="mfMaterial.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="mfResourceManager.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="mfRenderToTexture.h">
+      <Filter>RenderToTexture</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tutorial07.cpp" />
+    <ClCompile Include="mfBuffer.cpp">
+      <Filter>Buffers\mfBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="mfVertexBuffer.cpp">
+      <Filter>Buffers\mfVertexBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="mfPixelBuffer.cpp">
+      <Filter>Buffers\mfPixelBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="mfConstBuffer.cpp">
+      <Filter>Buffers\mfConstBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="mdDevice.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="mfDeviceContext.cpp">
+      <Filter>DeviceContext</Filter>
+    </ClCompile>
+    <ClCompile Include="mfBaseShader.cpp">
+      <Filter>BaseShader</Filter>
+    </ClCompile>
+    <ClCompile Include="mfBaseTexture.cpp">
+      <Filter>BaseTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="mfDepthStencil.cpp">
+      <Filter>DepthStencil</Filter>
+    </ClCompile>
+    <ClCompile Include="mfDepthStencilView.cpp">
+      <Filter>DepthStencilView</Filter>
+    </ClCompile>
+    <ClCompile Include="mfInputLayout.cpp">
+      <Filter>InputLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="mfLoadModel.cpp">
+      <Filter>LoadModel</Filter>
+    </ClCompile>
+    <ClCompile Include="mfPixelShader.cpp">
+      <Filter>PixelShader</Filter>
+    </ClCompile>
+    <ClCompile Include="mfRenderManager.cpp">
+      <Filter>RenderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="mfRenderTarget.cpp">
+      <Filter>RenderTarget</Filter>
+    </ClCompile>
+    <ClCompile Include="mfSampler.cpp">
+      <Filter>Sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="mfSwapchain.cpp">
+      <Filter>SwapChain</Filter>
+    </ClCompile>
+    <ClCompile Include="mfTexture.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="mfVertexShader.cpp">
+      <Filter>VertexShader</Filter>
+    </ClCompile>
+    <ClCompile Include="mfViewport.cpp">
+      <Filter>Viewport</Filter>
+    </ClCompile>
+    <ClCompile Include="mfWindow.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\ImGuiDirectX\imgui.cpp">
+      <Filter>ImGui\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\ImGuiDirectX\imgui_draw.cpp">
+      <Filter>ImGui\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\ImGuiDirectX\imgui_impl_dx11.cpp">
+      <Filter>ImGui\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\ImGuiDirectX\imgui_impl_win32.cpp">
+      <Filter>ImGui\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\ImGuiDirectX\imgui_widgets.cpp">
+      <Filter>ImGui\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="mfOpenFile.cpp">
+      <Filter>OpenFile</Filter>
+    </ClCompile>
+    <ClCompile Include="mfMesh.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>stb_image</Filter>
+    </ClCompile>
+    <ClCompile Include="mfCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="mfImGui.cpp">
+      <Filter>mfImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="mfMaterial.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="mfResourceManager.cpp">
+      <Filter>ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="mfRenderToTexture.cpp">
+      <Filter>RenderToTexture</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Tutorial07.fx">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="Tutorial07.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
